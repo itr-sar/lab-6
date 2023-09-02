@@ -27,9 +27,9 @@ Siga paso a paso los comandos en este documento y grabe un video de su servidor 
 
 7. Si necesita recuperar los archivos del backup sólo necesita descomprimir la información en los archivos ```*.tar.gz ``` en el directorio deseado:
 
-   Corra el comando ```tar -xzvg backup/full-backup.tar.gz```
+   Corra el comando ```tar -xzvf backup/full-backup.tar.gz```
 
-   Corra el comando ```tar -xzvg backup/backup_inc_1.tar.gz```
+   Corra el comando ```tar -xzvf backup/backup_inc_1.tar.gz```
 
 ### Crontabs
 1. Ingrese al crontab de su usuario con el comando: ```crontab -e```
